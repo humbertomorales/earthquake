@@ -68,7 +68,13 @@ class DetailEQTableViewController: UITableViewController, MKMapViewDelegate {
     }
     
     func addPinToMapView(location: CLLocationCoordinate2D, color: UIColor){
-        var annotation = MyAnnotation(coordinate: location, title: "Magnitud:"+eq.magnitude.description, subtitle: "")
+        let annotation : MyAnnotation = MyAnnotation(coordinate: location, title: "Magnitud:"+eq.magnitude.description, subtitle: "")
+        if color == UIColor.greenColor(){
+            annotation.pinColor = .Green
+        }else{
+            annotation.pinColor = .Blue
+        }
+        
         self.map.addAnnotation(annotation)
         setCenterOfMapToLocation(location)
     }

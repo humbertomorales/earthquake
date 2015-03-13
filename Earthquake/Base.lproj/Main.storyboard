@@ -45,7 +45,7 @@
                                                 <constraint firstAttribute="width" constant="65" id="4Ga-cj-Whj"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="30"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                             <variation key="default">
                                                 <mask key="constraints">
@@ -104,6 +104,7 @@
                                         <constraint firstAttribute="centerY" secondItem="MHr-yA-RCV" secondAttribute="centerY" id="BpP-tC-CUb"/>
                                         <constraint firstItem="UYn-7a-yGw" firstAttribute="top" secondItem="hxe-kE-Lng" secondAttribute="topMargin" constant="16" id="COI-95-91T"/>
                                         <constraint firstAttribute="bottomMargin" secondItem="MHr-yA-RCV" secondAttribute="bottom" constant="34" id="CkB-Na-3SM"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="6nC-Hf-wI2" secondAttribute="trailing" constant="175" id="D0e-Uu-ncG"/>
                                         <constraint firstAttribute="bottomMargin" secondItem="BSf-Ed-GJM" secondAttribute="bottom" constant="30.5" id="DQt-sv-62b"/>
                                         <constraint firstItem="UYn-7a-yGw" firstAttribute="leading" secondItem="hxe-kE-Lng" secondAttribute="leadingMargin" constant="7" id="H38-HF-dRf"/>
                                         <constraint firstAttribute="trailingMargin" secondItem="BSf-Ed-GJM" secondAttribute="trailing" constant="153" id="Iqd-Ug-i4U"/>
@@ -112,6 +113,7 @@
                                         <constraint firstAttribute="bottomMargin" secondItem="6nC-Hf-wI2" secondAttribute="bottom" constant="5" id="JYS-wM-g4t"/>
                                         <constraint firstItem="BSf-Ed-GJM" firstAttribute="top" secondItem="hxe-kE-Lng" secondAttribute="topMargin" constant="31" id="K73-Bp-Uyp"/>
                                         <constraint firstItem="BSf-Ed-GJM" firstAttribute="leading" secondItem="MHr-yA-RCV" secondAttribute="trailing" constant="8" symbolic="YES" id="NIS-tk-xc5"/>
+                                        <constraint firstItem="6nC-Hf-wI2" firstAttribute="top" secondItem="hxe-kE-Lng" secondAttribute="topMargin" constant="67" id="Ofh-o7-vhU"/>
                                         <constraint firstItem="6nC-Hf-wI2" firstAttribute="leading" secondItem="hxe-kE-Lng" secondAttribute="leadingMargin" constant="369" id="Smi-yj-Eg1"/>
                                         <constraint firstItem="UYn-7a-yGw" firstAttribute="top" secondItem="hxe-kE-Lng" secondAttribute="topMargin" constant="16" id="UJG-x2-ONS"/>
                                         <constraint firstAttribute="centerX" secondItem="BSf-Ed-GJM" secondAttribute="centerX" id="V35-Ej-opR"/>
@@ -137,12 +139,14 @@
                                         <constraint firstAttribute="trailingMargin" secondItem="UYn-7a-yGw" secondAttribute="trailing" constant="479" id="jt4-cu-nYs"/>
                                         <constraint firstItem="BSf-Ed-GJM" firstAttribute="leading" secondItem="MHr-yA-RCV" secondAttribute="trailing" constant="8" id="kJy-B3-JSY"/>
                                         <constraint firstAttribute="centerY" secondItem="BSf-Ed-GJM" secondAttribute="centerY" id="lZb-q6-Unh"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="6nC-Hf-wI2" secondAttribute="bottom" constant="-0.5" id="luL-kT-qSP"/>
                                         <constraint firstItem="MHr-yA-RCV" firstAttribute="centerY" secondItem="UYn-7a-yGw" secondAttribute="centerY" id="mlc-lZ-0cA"/>
                                         <constraint firstItem="MHr-yA-RCV" firstAttribute="leading" secondItem="hxe-kE-Lng" secondAttribute="leadingMargin" constant="76" id="oUZ-Cv-Ew6"/>
                                         <constraint firstItem="6nC-Hf-wI2" firstAttribute="top" secondItem="BSf-Ed-GJM" secondAttribute="bottom" constant="13" id="og6-yJ-6ZQ"/>
                                         <constraint firstAttribute="trailingMargin" secondItem="UYn-7a-yGw" secondAttribute="trailing" constant="479" id="ovY-I7-Nc7"/>
                                         <constraint firstItem="UYn-7a-yGw" firstAttribute="centerY" secondItem="hxe-kE-Lng" secondAttribute="centerY" id="qDN-Yc-0gM"/>
                                         <constraint firstAttribute="centerY" secondItem="UYn-7a-yGw" secondAttribute="centerY" id="skV-cy-d7G"/>
+                                        <constraint firstItem="6nC-Hf-wI2" firstAttribute="leading" secondItem="hxe-kE-Lng" secondAttribute="leadingMargin" constant="241" id="tUV-dt-jdE"/>
                                         <constraint firstItem="MHr-yA-RCV" firstAttribute="leading" secondItem="UYn-7a-yGw" secondAttribute="trailing" constant="4" id="vXa-kW-oaM"/>
                                         <constraint firstItem="6nC-Hf-wI2" firstAttribute="top" secondItem="hxe-kE-Lng" secondAttribute="topMargin" constant="62" id="y3N-sI-sUE"/>
                                         <constraint firstItem="MHr-yA-RCV" firstAttribute="top" secondItem="hxe-kE-Lng" secondAttribute="topMargin" constant="34" id="zFu-W8-nMP"/>
@@ -204,14 +208,18 @@
                                             <exclude reference="00q-eG-xLs"/>
                                             <exclude reference="8Jh-9R-wcs"/>
                                             <exclude reference="BZD-X7-4vf"/>
+                                            <exclude reference="D0e-Uu-ncG"/>
                                             <exclude reference="JPA-so-Ufk"/>
                                             <exclude reference="JYS-wM-g4t"/>
+                                            <exclude reference="Ofh-o7-vhU"/>
                                             <exclude reference="Smi-yj-Eg1"/>
                                             <exclude reference="VhH-gG-zgE"/>
                                             <exclude reference="Wue-U9-bwx"/>
                                             <exclude reference="d8f-73-Akx"/>
                                             <exclude reference="jFT-RT-4Bc"/>
+                                            <exclude reference="luL-kT-qSP"/>
                                             <exclude reference="og6-yJ-6ZQ"/>
+                                            <exclude reference="tUV-dt-jdE"/>
                                             <exclude reference="y3N-sI-sUE"/>
                                         </mask>
                                     </variation>
@@ -253,7 +261,7 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="tYC-Qp-sct">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
                         <sections>
                             <tableViewSection headerTitle="Information" id="DJo-zd-Jug">
                                 <cells>
@@ -265,19 +273,19 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="64M-3S-y6w">
                                                     <rect key="frame" x="20" y="26" width="398" height="21"/>
                                                     <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="15"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="26r-ma-n7c">
                                                     <rect key="frame" x="20" y="123" width="398" height="21"/>
                                                     <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="15"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uGa-Yj-5kV">
                                                     <rect key="frame" x="20" y="77" width="398" height="21"/>
                                                     <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="15"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
